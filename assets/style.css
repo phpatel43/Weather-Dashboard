@@ -1,0 +1,24 @@
+.container-fluid {
+    height: 750px;
+    background-color: moccasin;
+}
+
+.col-3 {
+    height: 750px;
+}
+
+#search {
+    width: 75%;
+    border-radius: 5px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background-color: black; 
+    color: white; 
+    text-align: center;
+}
