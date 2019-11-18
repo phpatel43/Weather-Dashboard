@@ -20,5 +20,7 @@ $(document).ready(function(){
 
 })
 
-
-
+function print(data) {
+    return "<h1>" + data.name + " " + data.weather[0].icon + "</h1>" + "<h6>Temp: " + data.main.temp + " °F </h4>" +
+           "<h6>Humidity: " + data.main.humidity + "% </h6>" + "<h6>Wind Speed: " + data.wind.speed + " mph </h6>";
+}
